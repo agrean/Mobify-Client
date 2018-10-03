@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/payment_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sp_payment_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center">
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_cash_type"-->
+            <!--android:text="First"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+            <!--<TextView-->
+            <!--android:id="@+id/tv_account_type"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+            <!--<TextView-->
+            <!--android:id="@+id/tv_mpesa_type"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+        </Spinner>
+
+        <LinearLayout
+            android:id="@+id/payment_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:padding="4dp"
+            android:background="@color/colorAccent">
+
+            <FrameLayout
+                android:id="@+id/payment_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_submit_pay"
+            android:layout_width="wrap_content"
+            android:text="Add Payment Type"
+            android:layout_weight="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
