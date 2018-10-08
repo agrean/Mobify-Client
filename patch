@@ -1,0 +1,13 @@
+commit 4f5bb9c513ac3ca30d02f3688b6570ad708d9379
+Author: agrean <ericabraham806@gmail.com>
+Date:   Mon Oct 8 09:49:39 2018 +0300
+
+    Amend Commit
+
+diff --git a/app/src/main/java/com/example/grean/mobify b/app/src/main/java/com/example/grean/mobify
+index e3f2c17..b3b2529 160000
+--- a/app/src/main/java/com/example/grean/mobify
++++ b/app/src/main/java/com/example/grean/mobify
+@@ -1 +1 @@
+-Subproject commit e3f2c175d743ec0c7062724811ca20d31775a8e4
++Subproject commit b3b252901538b1b21c67df4f54d9f4d65b6a9f88
