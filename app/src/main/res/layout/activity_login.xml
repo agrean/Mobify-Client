@@ -43,6 +43,7 @@
                     android:layout_weight="1"
                     android:hint="First Name"
                     android:padding="5dp"
+                    android:inputType="textPersonName"
                     android:singleLine="true"
                     android:textAlignment="center" />
 

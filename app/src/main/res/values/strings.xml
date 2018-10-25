@@ -24,12 +24,17 @@
 
     <string-array name="spinner_payment_array">
         <item>Select Payment Type</item>
-        <item>Account Payment</item>
+        <item name="account">Account Payment</item>
         <item>Cash Payment</item>
         <item>M-Pesa Payment</item>
     </string-array>
 
+    <string name="cash_text">Amount due to payment: </string>
+    <string name="et_cash">Enter Amount</string>
+    <string name="bt_cash">Send</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="payment_fragment">I am payment fragment</string>
+    <string name="title_activity_map">MapActivity</string>
 </resources>
